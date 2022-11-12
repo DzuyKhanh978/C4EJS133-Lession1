@@ -1,3 +1,39 @@
 body {
-    
+    background-color: #A8FFD4;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.title {
+    color: #CD5C5C;
+    font-weight: bold;
+}
+
+.div-image {
+    border-bottom: 2px dashed crimson;
+    width: 80%;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    color: yellow;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 600,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+#test-ul li:first-child {
+    color: red;
+}
+#test-ul li:last-child {
+    color: red;
+}
+
+.radio-input:checked +label {
+    color: red;
+}
+
+.icon-button {
+   vertical-align: auto;
 }

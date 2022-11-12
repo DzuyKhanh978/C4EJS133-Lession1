@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <hr>
-    <h1>Resume</h1>
-    <h2>Nguyen Tho Khanh Duy</h2>
-    <img src="images/avatar.jpg" alt="avatar" width="250" height="300">
-    <hr>
+    <h1 class="title">Resume</h1>
+    <h2 class="title">Nguyen Tho Khanh Duy</h2>
+    <div class="div-image">
+        <img src="images/avatar.jpg" alt="avatar" width="250" height="300">
+    </div>
     <p>Leave me a message</p>
     <form action="">
         <lable for="email">Your email</lable><br>
@@ -22,9 +24,29 @@
         <br>
         <textarea name="" id="" cols="20" rows="5">Your message here</textarea>
     </form>
+    <label for="">Đáp án đúng </label>
+    <select name="" id="">
+        <option value="">Câu a</option>
+        <option value="">Câu b</option>
+    </select>
+        <div>
+        <p><label for="Radio">Radio</label></p>
+        <div>
+            <input type="radio" name="fav_language" class="radio-input">
+            <label for="html">HTML</label>
+        </div>
+        <div>
+            <input type="radio" name="fav_language" class="radio-input">
+            <label for="CSS">CSS</label>
+     </div>
+    </div>
+    <p></p>
+
     <button>
-        Summit
-    </button>
+        <span class="material-symbols-outlined">search
+          </span>
+        Submit
+      </button>
     <table border="1px">
         <tr>
             <th>Name</th>
